@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
+:root {
+    --azul-kikeana: #5bc6dd;
+    --verde-oscuro-kikeana: #93b373;
+    --verde-claro-kikeana: #bad2a0;
+    --rosado-kikeana: #fec3c3;
+}
+
+  
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
@@ -25,13 +33,14 @@ header {
     height: 140px;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding-bottom: 20px;
 }
 
 header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: var(--azul-kikeana);
 }
 
 header .header-icons-container .icons {
@@ -101,12 +110,13 @@ nav .profile-link a {
     letter-spacing: 10px;
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .home-main-button {
     width: 110px;
     height: 50px;
-    background: #47cfac;
+    background: var(--azul-kikeana);
     display: grid;
     align-items: center;
 }
@@ -182,7 +192,7 @@ footer {
     width: 100%;
     height: 80px;
     background-color: #22272d;
-    border-top: 35px solid #47cfac;
+    border-top: 35px solid var(--azul-kikeana);
     text-align: center;
 }
 

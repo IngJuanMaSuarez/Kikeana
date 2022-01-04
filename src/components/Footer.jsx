@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <footer>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Kikeana - Amigurumi - Crochet - Colombia</p>
             </footer>
         </div>
     );
