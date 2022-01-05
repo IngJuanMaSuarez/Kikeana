@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { IndexLayout } from './layouts/IndexLayout';
 import { BlogsLayout } from './layouts/BlogsLayout';
+import { BlogLayout } from './layouts/BlogLayout';
 
 import { Index } from './pages/Index';
 import { Blogs } from './pages/Blogs';
@@ -19,8 +20,10 @@ function App() {
         <Route path = '/' element = { <IndexLayout /> }>
           <Route path = "/" element = { <Index /> } />
         </Route>
-        <Route path = '' element = { <BlogsLayout /> }>
+        <Route path = '/' element = { <BlogsLayout /> }>
           <Route path = "/Blogs" element = { <Blogs /> } />
+        </Route>
+        <Route path = '' element = { <BlogLayout /> }>
           <Route path = "/Blog" element = { <Blog /> } />
           <Route path = "/Perfil" element = { <Perfil /> } />
         </Route>

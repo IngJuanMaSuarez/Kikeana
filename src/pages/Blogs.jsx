@@ -55,7 +55,7 @@ const Blogs = () => {
                         <article className='post-container'>
                             <img src={ post5 } alt="" />
                             <p>Galería</p>
-                            <p>A continuación verán algunas de las imágenes de los amigurumis personalizados que se han entregado en diferentes ciudades de Colombia, para todas las edades y toda...</p>
+                            <p>A continuación verán algunas de las imágenes de los amigurumis personalizados que se han entregado en diferentes ciudades de Colombia, para todas las...</p>
                             <a href="Blog" className='blogs-button'>Leer más</a>
                         </article>
 

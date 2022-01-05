@@ -1,8 +1,6 @@
 import React from 'react';
 
 import main_news_img from '../media/main_news_img.png';
-import like from '../media/006-like.png';
-import newsletter from '../media/013-newsletter.png';
 
 const Blog = () => {
     return (
@@ -48,22 +46,6 @@ const Blog = () => {
                                 Respirar, sonreír y relajarnos 😉
                             </p>
                         </article>
-                    </div>
-                </section>
-                <section className='contact-main-container'>
-                    <div>
-                        <img src= { newsletter } alt="" />
-                        <div className='contact-left'>
-                            <a href="">Contacto</a>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, alias.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src= { like } alt="" />
-                        <div className='contact-right'>
-                            <a href="">Escribe</a>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, dolorem.</p>
-                        </div>
                     </div>
                 </section>
             </main>

@@ -35,4 +35,8 @@
     .proyects-main-container {
         grid-template-columns: 1fr;
     }
+
+    .contact-main-container {
+        display: flex;
+    }
 }
