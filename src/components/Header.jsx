@@ -20,7 +20,7 @@ const Header = () => {
                         <a href = "/"><img src = { Logo } alt = "Logo de mi blog" /></a>
                     </section>
                     <section className = "profile-link">
-                        <a href = "">Sobre Nosotros</a>
+                        <a href = "Profile" >Sobre Nosotros</a>
                     </section>
                 </nav>
             </header>

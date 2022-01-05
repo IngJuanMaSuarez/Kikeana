@@ -6,6 +6,10 @@ import { BlogsLayout } from './layouts/BlogsLayout';
 import { Index } from './pages/Index';
 import { Blogs } from './pages/Blogs';
 import { Blog } from './pages/Blog'
+import { Profile } from './pages/Profile';
+
+import './styles/main.css';
+import './font/flaticon.css';
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
         <Route path = '' element = { <BlogsLayout /> }>
           <Route path = "/Blogs" element = { <Blogs /> } />
           <Route path = "/Blog" element = { <Blog /> } />
+          <Route path = "/Profile" element = { <Profile /> } />
         </Route>
       </Routes>
     </Router>
