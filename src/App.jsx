@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Routes>
         <Route path = '/' element = { <IndexLayout /> }>
-          <Route path = "/kikeana" element = { <Index /> } />
+          <Route path = "/" element = { <Index /> } />
         </Route>
         <Route path = '/' element = { <BlogsLayout /> }>
           <Route path = "/Blogs" element = { <Blogs /> } />

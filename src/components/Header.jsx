@@ -19,7 +19,7 @@ const Header = () => {
                 </section>
                 <nav>
                     <section className = "nav-logo-container">
-                        <a href = "/kikeana"><img src = { Logo } alt = "Logo de mi blog" /></a>
+                        <a href = "/"><img src = { Logo } alt = "Logo de mi blog" /></a>
                     </section>
                     <section className = "profile-link">
                         <a href = "Perfil" >Sobre Nosotros</a>
