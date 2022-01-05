@@ -6,9 +6,10 @@ import { BlogsLayout } from './layouts/BlogsLayout';
 import { Index } from './pages/Index';
 import { Blogs } from './pages/Blogs';
 import { Blog } from './pages/Blog'
-import { Profile } from './pages/Profile';
+import { Perfil } from './pages/Perfil';
 
 import './styles/main.css';
+import './styles/media-queries.css';
 import './font/flaticon.css';
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Route path = '' element = { <BlogsLayout /> }>
           <Route path = "/Blogs" element = { <Blogs /> } />
           <Route path = "/Blog" element = { <Blog /> } />
-          <Route path = "/Profile" element = { <Profile /> } />
+          <Route path = "/Perfil" element = { <Perfil /> } />
         </Route>
       </Routes>
     </Router>
