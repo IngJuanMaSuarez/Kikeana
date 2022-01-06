@@ -11,7 +11,6 @@ import { Perfil } from './pages/Perfil';
 
 import './styles/main.css';
 import './styles/media-queries.css';
-import './font/flaticon.css';
 
 function App() {
   return (

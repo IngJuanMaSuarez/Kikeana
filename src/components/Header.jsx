@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Logo from '../media/Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faTwitter, faPinterest, faTiktok, faWhatsapp, faFacebookMessenger } from "@fortawesome/free-brands-svg-icons"
 
 const Header = () => {
     return (
@@ -8,13 +10,13 @@ const Header = () => {
             <header>
                 <section className = "header-icons-container">
                     <div className = "icons">
-                        <a href = "https://www.instagram.com/KikeanaArt/" target="_blank"><span className = "flaticon-011-instagram"></span></a>
-                        <a href = "https://www.facebook.com/KikeanaArt/" target="_blank"><span className = "flaticon-001-facebook"></span></a>
-                        <a href = "https://twitter.com/KikeanaArt" target="_blank"><span className = "flaticon-002-twitter"></span></a>
-                        <a href = "https://co.pinterest.com/kikeanaart/" target="_blank"><span className = "flaticon-004-groupme"></span></a>
-                        <a href = "https://www.tiktok.com/@kikeanaart" target="_blank"><span className = "flaticon-005-kik"></span></a>
-                        <a href = "https://wa.me/message/UFD4QQZHUERLC1" target="_blank"><span className = "flaticon-003-whatsapp"></span></a>
-                        <a href = "https://m.me/KikeanaArt" target="_blank"><span className = "flaticon-012-messenger"></span></a>
+                        <a href = "https://www.instagram.com/KikeanaArt/" target="_blank"><FontAwesomeIcon icon={faInstagram} size='2x' /></a>
+                        <a href = "https://www.facebook.com/KikeanaArt/" target="_blank"><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
+                        <a href = "https://twitter.com/KikeanaArt" target="_blank"><FontAwesomeIcon icon={faTwitter} size='2x' /></a>
+                        <a href = "https://co.pinterest.com/kikeanaart/" target="_blank"><FontAwesomeIcon icon={faPinterest} size='2x' /></a>
+                        <a href = "https://www.tiktok.com/@kikeanaart" target="_blank"><FontAwesomeIcon icon={faTiktok} size='2x' /></a>
+                        <a href = "https://wa.me/message/UFD4QQZHUERLC1" target="_blank"><FontAwesomeIcon icon={faWhatsapp} size='2x' /></a>
+                        <a href = "https://m.me/KikeanaArt" target="_blank"><FontAwesomeIcon icon={faFacebookMessenger} size='2x' /></a>
                     </div>
                 </section>
                 <nav>
