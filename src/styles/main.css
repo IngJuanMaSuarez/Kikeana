@@ -55,7 +55,7 @@ header .header-icons-container .icons {
     align-items: center;
     justify-content: space-between;
     justify-self: end;
-    margin-right: 80px;
+    margin-right: 20px;
 }
 
 header .icons span {
@@ -71,7 +71,7 @@ nav {
 }
 
 nav .nav-logo-container {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 nav .nav-logo-container img {
@@ -95,7 +95,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url(/src/media/Cover.png);
+    background-image: url(/src/media/Cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@ nav .profile-link a {
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 350px;
+    height: 400px;
     margin-top: 120px;
 }
 
@@ -181,7 +181,7 @@ nav .profile-link a {
 
 .blogs-posts-container .post-container {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 20px;
     max-width: 30%;
     margin-bottom: 50px;
 }
