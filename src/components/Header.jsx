@@ -23,8 +23,10 @@ const Header = () => {
                     <section className = "nav-logo-container">
                         <a href = "/"><img src = { Logo } alt = "Logo de mi blog" /></a>
                     </section>
-                    <section className = "profile-link">
-                        <a href = "Perfil" >Sobre Nosotros</a>
+                    <section className='nav-profile-container'>
+                        <button className = "profile-button">
+                            <a href = "Perfil" >Sobre Nosotros</a>
+                        </button>
                     </section>
                 </nav>
             </header>

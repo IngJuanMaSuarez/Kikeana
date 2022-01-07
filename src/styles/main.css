@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
-    --azul-kikeana: #5bc6dd;
-    --verde-oscuro-kikeana: #93b373;
-    --verde-claro-kikeana: #bad2a0;
-    --rosado-kikeana: #fec3c3;
+    --azul-claro-kikeana: #A0E3F2;
+    --azul-oscuro-kikeana: #55CCD9;
+    --verde-kikeana: #C0D99A;
+    --rojo-kikeana: #8C0303;
+    --negro-kikeana: #0D0D0D;
 }
   
 body {
@@ -44,7 +45,7 @@ header .header-icons-container {
     width: 100%;
     height: 70px;
     display: grid;
-    background-color: var(--azul-kikeana);
+    background-color: var(--azul-oscuro-kikeana);
 }
 
 header .header-icons-container .icons {
@@ -65,6 +66,7 @@ header .icons span {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     background-image: url(../media/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,16 +81,23 @@ nav .nav-logo-container img {
     margin-top: 10px;
 }
 
-nav .profile-link {
+nav .nav-profile-container{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     margin-right: 15px;
 }
 
-nav .profile-link a {
+nav .profile-button {
+    width: 180px;
+    height: 50px;
+    background: var(--azul-oscuro-kikeana);
+    align-items: flex-end;
+}
+
+nav .profile-button a {
     color: black;
-    border-bottom: 1px solid black;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .home-main {
@@ -101,7 +110,7 @@ nav .profile-link a {
 }
 
 .home-main-container{
-    background-color: #5bc6dd8f;
+    background-color: #55ccd980;
     height: 220px;
     display: grid;
     align-content: center;
@@ -129,7 +138,7 @@ nav .profile-link a {
 .home-main-button {
     width: 110px;
     height: 50px;
-    background: var(--azul-kikeana);
+    background: var(--azul-oscuro-kikeana);
 }
 
 .home-main-button a {
@@ -203,7 +212,7 @@ footer {
     width: 100%;
     height: 80px;
     background-color: #22272d;
-    border-top: 35px solid var(--azul-kikeana);
+    border-top: 35px solid var(--azul-oscuro-kikeana);
     text-align: center;
 }
 
