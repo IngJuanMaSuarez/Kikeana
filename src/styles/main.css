@@ -92,6 +92,7 @@ nav .profile-button {
     height: 50px;
     background: var(--azul-oscuro-kikeana);
     align-items: flex-end;
+    border-radius: 15px;
 }
 
 nav .profile-button a {
