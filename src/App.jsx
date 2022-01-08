@@ -6,8 +6,13 @@ import { BlogLayout } from './layouts/BlogLayout';
 
 import { Index } from './pages/Index';
 import { Blogs } from './pages/Blogs';
-import { Blog } from './pages/Blog'
+import { QueEsAmigurumi } from './pages/QueEsAmigurumi'
+import { MaterialesUsados } from './pages/MaterialesUsados';
+import { ComoBanoMiAmigurumi } from './pages/ComoBanoMiAmigurumi';
+import { Festividades } from './pages/Festividades';
+import { PrimerSorteoYLive } from './pages/PrimerSorteoYLive';
 import { Perfil } from './pages/Perfil';
+import { Galeria } from './pages/Galeria';
 
 import './styles/main.css';
 import './styles/media-queries.css';
@@ -23,7 +28,12 @@ function App() {
           <Route path = "/Blogs" element = { <Blogs /> } />
         </Route>
         <Route path = '' element = { <BlogLayout /> }>
-          <Route path = "/Blog" element = { <Blog /> } />
+          <Route path = "/QueEsAmigurumi" element = { <QueEsAmigurumi /> } />
+          <Route path = "/MaterialesUsados" element = { <MaterialesUsados /> } />
+          <Route path = "/ComoBanoMiAmigurumi" element = { <ComoBanoMiAmigurumi /> } />
+          <Route path = "/Festividades" element = { <Festividades /> } />
+          <Route path = "/PrimerSorteoYLive" element = { <PrimerSorteoYLive /> } />
+          <Route path = "/Galeria" element = { <Galeria /> } />
           <Route path = "/Perfil" element = { <Perfil /> } />
         </Route>
       </Routes>

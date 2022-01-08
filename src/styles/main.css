@@ -243,6 +243,19 @@ footer p {
     font-size: 35px;
 }
 
+.blogpost-button {
+    width: 140px;
+    height: 50px;
+    background: var(--azul-oscuro-kikeana);
+    border-radius: 15px;
+}
+
+.blogpost-button a {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .contact-main-container {
     padding: 0 50px 40px;
 }
